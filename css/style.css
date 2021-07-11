@@ -1,0 +1,38 @@
+﻿*{margin: 0px; padding: 0px;}
+/* Formulario */
+.formulario{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid #e0e0e0;
+  position: relative;
+  width: 500px;
+  height: 100%;
+  background-color: rgb(192, 176, 207);
+}
+/* Elemento de classe "botao" */
+.botao-cadastro {
+    font-size: 1.2em;
+    background: #B22222;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(255,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(255,0,0,0.3);
+    position: absolute;
+    top: 125%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao-cadastro:hover {
+    background: #ff9e81;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao-cadastro, select{
+    cursor: pointer;
+}
