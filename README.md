@@ -1,2 +1,2 @@
 # projeto-estourando-baloes
- Projeto estourando baloes em JavaScript.
+Formulario com conexão com banco de dados.
